@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.controleestoque.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_newuser"
+        android:name="com.example.controleestoque.Fragments.NewUserFragment"
+        android:label="@string/menu_newuser"
+        tools:layout="@layout/fragment_newuser" >
+        <action
+            android:id="@+id/action_nav_newuser_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_newproduct"
+        android:name="com.example.controleestoque.Fragments.NewProductFragment"
+        android:label="@string/menu_newproduct"
+        tools:layout="@layout/fragment_newproduct" >
+        <action
+            android:id="@+id/action_nav_products_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_edituser"
+        android:name="com.example.controleestoque.Fragments.EditUserFragment"
+        android:label="@string/menu_edituser"
+        tools:layout="@layout/fragment_edit_user" >
+        <action
+            android:id="@+id/action_nav_edituser_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_editproduct"
+        android:name="com.example.controleestoque.Fragments.EditProductFragment"
+        android:label="@string/menu_editproduct"
+        tools:layout="@layout/fragment_edit_user" >
+        <action
+            android:id="@+id/action_nav_editproduct_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

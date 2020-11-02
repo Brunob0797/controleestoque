@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Controle de Estoque</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Controle de Estoque</string>
+    <string name="nav_header_subtitle">Feito por Bruno Barcarolo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_disconnect">Sair</string>
+
+    <string name="menu_home">Tela Inicial</string>
+    <string name="menu_newuser">Novo Usuário</string>
+    <string name="menu_edituser">Editar Usuário</string>
+    <string name="menu_newproduct">Novo Produto</string>
+    <string name="menu_editproduct">Editar Produto</string>
+    <string name="menu_inventory">Estoque</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pesquisa">Clique na lupa para pesquisar</string>
+</resources>

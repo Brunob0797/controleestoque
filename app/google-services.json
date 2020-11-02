@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "197416622685",
+    "firebase_url": "https://controleestoque-90543.firebaseio.com",
+    "project_id": "controleestoque-90543",
+    "storage_bucket": "controleestoque-90543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197416622685:android:3135043312a65d4ed84bb4",
+        "android_client_info": {
+          "package_name": "com.example.controleestoque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197416622685-6phc7pbfj0kg5mmhcq0gjjjpqvo4b5hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.controleestoque",
+            "certificate_hash": "e1d397e18c3670b2018f3ef97062dfea7d21daf7"
+          }
+        },
+        {
+          "client_id": "197416622685-8t7hn0aounodptd1km0b29kqv11i0pqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIrRkl6T8Z7YtUPcosstk1CJTUM5taZUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197416622685-8t7hn0aounodptd1km0b29kqv11i0pqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
