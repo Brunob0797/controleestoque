@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NewUserFragment"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EdicaoProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edição de Produto"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                android:layout_marginBottom="50dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/iconSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgsearchProduct"
+                android:src="@drawable/ic_iconfinder_search_326690"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                />
+                <TextView
+                    android:id="@+id/Pesquisar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pesquisa"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dataSearched"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textProduto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Produto"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"/>
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtProductEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text=""
+                app:bootstrapBrand="info"
+                app:bootstrapSize="xl"
+                app:roundedCorners="true"
+                tools:ignore="MissingConstraints"
+                android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textFabricante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fabricante"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"/>
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    android:id="@+id/edtProducerEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text=""
+                    app:bootstrapBrand="info"
+                    app:bootstrapSize="xl"
+                    app:roundedCorners="true"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textPreco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preço"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"/>
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    android:id="@+id/edtPriceEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text=""
+                    app:bootstrapBrand="info"
+                    app:bootstrapSize="xl"
+                    app:roundedCorners="true"
+                    tools:ignore="MissingConstraints"
+                    android:layout_marginTop="5dp"/>
+
+                <LinearLayout
+            android:id="@+id/editarMedida"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btneditarMedida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Editar identificação"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="xl"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                app:showOutline="false" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lerNovaMedida"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/AvisoProduto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coloque o produto na balança"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    />
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/btnLerNovaMedida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Já adicionei o produto"
+                    app:bootstrapBrand="primary"
+                    app:bootstrapSize="xl"
+                    app:buttonMode="regular"
+                    app:roundedCorners="true"
+                    app:showOutline="false" />
+
+            </LinearLayout>
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btnEditProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Editar Cadastro"
+                app:bootstrapBrand="success"
+                app:bootstrapSize="xl"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                app:showOutline="false" />
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:id="@+id/btnRemoveProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Excluir Cadastro"
+                    app:bootstrapBrand="danger"
+                    app:bootstrapSize="xl"
+                    app:buttonMode="regular"
+                    app:roundedCorners="true"
+                    app:showOutline="false" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
